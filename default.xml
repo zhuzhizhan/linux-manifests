@@ -4,6 +4,10 @@
 
   <default remote="origin" revision="master" sync-j="4"/>
 
-  <project name="u-boot" path="bsp" revision="develop"/>
+  <project name="linux-scripts" path="./" revision="main"/>
+  <project name="u-boot" path="u-boot" revision="develop"/>
   <project name="opensbi" path="opensbi" revision="develop"/>
+  <project name="linux" path="linux" revision="develop"/>
+  <project name="buildroot" path="buildroot" revision="develop"/>
+  <project name="arm-trusted-firmware" path="arm-trusted-firmware" revision="develop"/>
 </manifest>
